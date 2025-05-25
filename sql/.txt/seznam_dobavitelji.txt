@@ -1,0 +1,101 @@
+id	naziv	naslov	posta	drzava
+1	AutoPlus GmbH	Musterstrasse 1	10115	Nemèija
+2	CarWorld Ltd.	42 Avenue Road	SW1A	Anglija
+3	AvtoExport d.o.o.	Celovška 22	1000	Slovenija
+4	AutoTrader S.A.	Gran Via 10	08010	Španija
+5	SpeedAuto GmbH	Marktplatz 5	1010	Avstrija
+6	DriveMax Ltd.	King Street 15	1100	Anglija
+7	EuroCars AG	Schweizerstrasse 8	8032	Švica
+8	MotorTrade Co.	Luigi Pirandello 3	00100	Italija
+9	CarNation Inc.	123 Elm Street	90210	ZDA
+10	Global Motors Ltd.	Oxford Road 56	2000	Austraija
+11	AutoLine S.r.l.	Via Roma 45	50100	Italija
+12	QuickDrive Ltd.	56 High Street	14100	Anglija
+13	AutoExim AG	Flughafenstrasse 12	10123	Nemèija
+14	CarZoom d.o.o.	Trg Republike 7	1000	Slovenija
+15	EuroMotor GmbH	Friedrichstrasse 22	70173	Nemèija
+16	DriveTime Inc.	101 Main Street	44101	ZDA
+17	CarShop Ltd.	34 St. George's Street	13000	Francija
+18	MotionAuto GmbH	Prinzenstrasse 3	10961	Nemèija
+19	DriveNow Ltd.	Beach Road 78	2000	Austraija
+20	TopCar S.A.	Via dei Mille 32	10121	Italija
+21	AutoStyle Ltd.	Park Avenue 4	2000	Francija
+22	AutoParts Ltd.	77 Oak Street	90211	ZDA
+23	CarPower AG	Magdalenenstrasse 3	70178	Nemèija
+24	CarPort Inc.	77 West End Avenue	10024	ZDA
+25	FastDrive Ltd.	Laudonstrasse 21	1020	Avstrija
+26	CarZone Ltd.	Libertador 100	10000	Argentinska
+27	MotorWorks S.A.	Rua das Laranjeiras 10	1200	Portugalska
+28	CityCars Ltd.	Strada Buzeºti 5	011060	Romanija
+29	AutoUnion Ltd.	Av. Insurgentes Sur 2800	03100	Mehika
+30	DrivePlus S.r.l.	Via Garibaldi 18	70100	Italija
+31	AutoMotive Ltd.	Rue de la Paix 12	75002	Francija
+32	CarConnect AG	St. Petersstrasse 9	8001	Švica
+33	PowerDrive Inc.	2052 Elm St	19902	ZDA
+34	AutoGlobal S.A.	Al. Jerozolimskie 90	00-807	Polonija
+35	CarNet Ltd.	Stolarska 10	1010	Poljska
+36	DrivePro AG	Hansaring 15	50670	Nemèija
+37	AutoWelt Ltd.	8 Chemin de l'Industrie	4000	Luksemburg
+38	CarDirect GmbH	Viaduktstrasse 10	1030	Švica
+39	MotorShop Inc.	149 Broadway St	14601	ZDA
+40	AutoPrime Ltd.	16 Boulevard Haussmann	75009	Francija
+41	QuickCars Ltd.	56 Rue de Lyon	75012	Francija
+42	AutoCity GmbH	Stuttgartstrasse 25	70173	Nemèija
+43	AutoDreams Ltd.	Carrer de Pau Claris 48	08009	Španija
+44	CarMarket AG	Neue Strasse 14	8001	Švica
+45	DriveForce Ltd.	53 L. A. Avenue	20201	Kanada
+46	CarLink AG	5 Boulevard Foch	14000	Francija
+47	AutoZone Inc.	3505 Spring Garden St	19104	ZDA
+48	SpeedDrive GmbH	Sonnenstrasse 10	80331	Nemèija
+49	TurboCars Ltd.	22 Park Lane	2000	Velika Britanija
+50	AutoEmpire AG	Schillerstrasse 15	10115	Nemèija
+51	CityDrive S.A.	Porta del Sol 14	28013	Španija
+52	CarDirect S.r.l.	Via del Corso 30	00100	Italija
+53	AutoWorld Ltd.	Alfredstrasse 30	42489	Nemèija
+54	SpeedRacer Inc.	5678 W 22nd St	73301	ZDA
+55	ZoomDrive GmbH	Otto-Wagner-Str. 12	1130	Avstrija
+56	CarBridge Ltd.	St. John’s Road 8	1110	Anglija
+57	DriveSpeed AG	Hoher Weg 20	2200	Švica
+58	MotorTrend Inc.	1425 East 4th St	47401	ZDA
+59	AutoFlex Ltd.	60 W Market St	53704	ZDA
+60	MotorMall Ltd.	11 Rue du Faubourg 17	75012	Francija
+61	ZoomAuto AG	Sihlstrasse 3	8001	Švica
+62	DriveNow GmbH	Gastwiesenstr. 30	8053	Švica
+63	CarWorld AG	Unter den Linden 5	10117	Nemèija
+64	AutoMove Ltd.	Bay Area 5	94123	ZDA
+65	CarDrive GmbH	Goethestr. 18	60311	Nemèija
+66	QuickAuto Ltd.	4 Park Road	44000	Avstrija
+67	DriveTech Ltd.	Schottenring 10	1010	Avstrija
+68	MotorsPlus Ltd.	5 Place de la Concorde	75008	Francija
+69	CarTrend AG	Staatsstrasse 20	1001	Avstrija
+70	AutoExcellence S.A.	St. Bernard Road 23	38000	Francija
+71	CarWorld S.r.l.	Via dei Martiri 9	33000	Italija
+72	AutoVision Ltd.	George Street 12	12450	Skandinavija
+73	DriveHub GmbH	Werderstrasse 10	30419	Nemèija
+74	SuperDrive Ltd.	55 Victory Blvd	10293	ZDA
+75	CarVision Ltd.	10 St. Patrick’s Rd	19901	ZDA
+76	AutoQuest S.r.l.	Via dei Laghi 14	50000	Slovenija
+77	MotorPeak AG	Essener Str. 6	45355	Nemèija
+78	SpeedLine Ltd.	Via Emilia 20	20100	Italija
+79	ZoomDrive Ltd.	Alpine Rd 15	98122	Francija
+80	CarNation AG	Marienplatz 7	80331	Nemèija
+81	CarRally GmbH	Augusta Str. 23	80802	Nemèija
+82	AutoClub Ltd.	55 Main Street	4000	ZDA
+83	DriveAce Ltd.	Schubertstr. 12	10247	Avstrija
+84	QuickLine AG	St. Martin’s St	91000	ZDA
+85	AutoMotor AG	25 Mill Road	46001	ZDA
+86	CarTown Ltd.	Calle de Gran Vía 36	28013	Španija
+87	ZoomRides Ltd.	Park Avenue 2	10009	ZDA
+88	AutoLink S.A.	56 Avenue des Champs-Élysées	75008	Francija
+89	CarMark AG	Via dei Platani 16	33080	Italija
+90	DriveRider GmbH	Stuttgartstr. 4	70173	Nemèija
+91	MotorVibe Ltd.	High Street 15	2000	Avstrija
+92	SuperCar S.A.	Place de la Gare 6	1000	Švica
+93	ZoomDrive Ltd.	Elm Street 33	10234	ZDA
+94	DriveFusion S.A.	Place du Trocadéro 8	75016	Francija
+95	MotorXpress Ltd.	7 Upper Street	1243	Velika Britanija
+96	AutoRevolution GmbH	Portstr. 15	21107	Nemèija
+97	CarGo Ltd.	63 City Rd	15001	ZDA
+98	DriveMaster S.A.	5 Rue de la Paix	75002	Francija
+99	SuperMotor Ltd.	22 Rue du Faubourg	75010	Francija
+100	QuickRide AG	Champs-Élysées 14	75008	Francija
