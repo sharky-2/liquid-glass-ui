@@ -456,7 +456,20 @@ CREATE OR REPLACE VIEW zaposleni_pozicija_view AS
 SELECT 
     pozicija,
     COUNT(*) AS stevilo_zaposlenih
-FROM Zaposleni
+FROM zaposleni
+
+
+
+
+
+
+
+
+
+
+
+
+
 GROUP BY pozicija
 ORDER BY stevilo_zaposlenih DESC;
 
