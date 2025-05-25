@@ -72,6 +72,16 @@ UPDATE Prodajalna SET logo_url = 'https://encrypted-tbn0.gstatic.com/images?q=tb
 UPDATE Prodajalna SET logo_url = 'https://www.parkvojaskezgodovine.si/wp-content/uploads/2017/02/triglav-logo-Converted.jpg' WHERE id_prodajalna = 3;
 UPDATE Prodajalna SET logo_url = 'https://static2.mojedelo.com/Images/EmployerLogoFullPicture/0dd72b55fb0b42d0adeab6e2d0a32da6' WHERE id_prodajalna = 4;
 UPDATE Prodajalna SET logo_url = 'https://img.mojaobcina.si/img/1/H_MAX_1024x768/12746_1725343624_avtokrka.jpg' WHERE id_prodajalna = 5;
+UPDATE Prodajalna SET logo_url = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREqCD1GrP8CL7ZcecpcAKGEV_N91mDEyD0yw&s' WHERE id_prodajalna = 6;
+UPDATE Prodajalna SET logo_url = 'https://www.mojponudnik.si/wp-content/uploads/2023/12/AVS-avtocenter-RENT-A-CAR-ASISTENCA-servis-logo.jpg' WHERE id_prodajalna = 7;
+UPDATE Prodajalna SET logo_url = 'https://avtoservis-mb.com/wp-content/uploads/2020/04/logo2.jpg' WHERE id_prodajalna = 8;
+UPDATE Prodajalna SET logo_url = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUbtTrbIDgtjHsrJ9-_k8z6gZG2Zh9SJPG4w&s' WHERE id_prodajalna = 9;
+UPDATE Prodajalna SET logo_url = 'https://autopark.si/wp-content/uploads/2021/02/logo-autopark-sticky-black.png' WHERE id_prodajalna = 10;
+UPDATE Prodajalna SET logo_url = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw6oPffBm9nd-V5_24cBx2dvfF4nqE-Pypkg&s' WHERE id_prodajalna = 11;
+UPDATE Prodajalna SET logo_url = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEm1VNTRv9rYXqwHXWq65iRSdNpFnkm4dH1A&s' WHERE id_prodajalna = 12;
+UPDATE Prodajalna SET logo_url = 'https://www.supernova-novomesto.si/fileadmin/_processed_/8/4/csm_avtopralnica-novo-mesto-logo_c4401c4f73.jpg' WHERE id_prodajalna = 13;
+UPDATE Prodajalna SET logo_url = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQODzMz4Wcg2QKEJSXI3NVY_jCihzGMR63W637bN3fbL1T2p17KRHtoc3xTRp2P1blTi88&usqp=CAU' WHERE id_prodajalna = 14;
+UPDATE Prodajalna SET logo_url = 'https://avtoservis-mb.com/wp-content/uploads/2020/04/logo2.jpg' WHERE id_prodajalna = 15;
 
 -- ====== Tabela: Lokacija ======
 DROP TABLE if EXISTS Lokacija;
@@ -229,7 +239,7 @@ CREATE TABLE Dobavitelji (
     drzava VARCHAR(50)
 );
 
-LOAD DATA INFILE 'E:/GearRush/sql/.txt/seznam_Dobavitelji.txt'
+LOAD DATA INFILE 'E:/Prodajalna Avtov - Blaz Kolaric 3.Rb/sql/.txt/seznam_Dobavitelji.txt'
 INTO TABLE Dobavitelji
 CHARACTER SET utf8
 FIELDS TERMINATED BY '\t'
@@ -261,7 +271,7 @@ CREATE TABLE Vozila (
 );
 
 
-LOAD DATA INFILE 'E:/GearRush/sql/.txt/seznam_vozil.txt'
+LOAD DATA INFILE 'E:/Prodajalna Avtov - Blaz Kolaric 3.Rb/sql/.txt/seznam_vozil.txt'
 INTO TABLE Vozila
 CHARACTER SET utf8
 FIELDS TERMINATED BY '\t'
@@ -271,26 +281,26 @@ IGNORE 1 LINES;
 ALTER TABLE Vozila
 ADD COLUMN prodajalna_id VARCHAR(255);
 
-UPDATE Vozila SET prodajalna_id = 3 WHERE id_vozila = 1;
-UPDATE Vozila SET prodajalna_id = 1 WHERE id_vozila = 2;
-UPDATE Vozila SET prodajalna_id = 5 WHERE id_vozila = 3;
+UPDATE Vozila SET prodajalna_id = 7 WHERE id_vozila = 1;
+UPDATE Vozila SET prodajalna_id = 13 WHERE id_vozila = 2;
+UPDATE Vozila SET prodajalna_id = 9 WHERE id_vozila = 3;
 UPDATE Vozila SET prodajalna_id = 2 WHERE id_vozila = 4;
-UPDATE Vozila SET prodajalna_id = 4 WHERE id_vozila = 5;
-UPDATE Vozila SET prodajalna_id = 1 WHERE id_vozila = 6;
-UPDATE Vozila SET prodajalna_id = 3 WHERE id_vozila = 7;
-UPDATE Vozila SET prodajalna_id = 2 WHERE id_vozila = 8;
-UPDATE Vozila SET prodajalna_id = 5 WHERE id_vozila = 9;
-UPDATE Vozila SET prodajalna_id = 1 WHERE id_vozila = 10;
-UPDATE Vozila SET prodajalna_id = 4 WHERE id_vozila = 11;
-UPDATE Vozila SET prodajalna_id = 2 WHERE id_vozila = 12;
+UPDATE Vozila SET prodajalna_id = 15 WHERE id_vozila = 5;
+UPDATE Vozila SET prodajalna_id = 11 WHERE id_vozila = 6;
+UPDATE Vozila SET prodajalna_id = 5 WHERE id_vozila = 7;
+UPDATE Vozila SET prodajalna_id = 1 WHERE id_vozila = 8;
+UPDATE Vozila SET prodajalna_id = 6 WHERE id_vozila = 9;
+UPDATE Vozila SET prodajalna_id = 14 WHERE id_vozila = 10;
+UPDATE Vozila SET prodajalna_id = 8 WHERE id_vozila = 11;
+UPDATE Vozila SET prodajalna_id = 10 WHERE id_vozila = 12;
 UPDATE Vozila SET prodajalna_id = 3 WHERE id_vozila = 13;
-UPDATE Vozila SET prodajalna_id = 5 WHERE id_vozila = 14;
-UPDATE Vozila SET prodajalna_id = 1 WHERE id_vozila = 15;
-UPDATE Vozila SET prodajalna_id = 4 WHERE id_vozila = 16;
-UPDATE Vozila SET prodajalna_id = 2 WHERE id_vozila = 17;
-UPDATE Vozila SET prodajalna_id = 3 WHERE id_vozila = 18;
-UPDATE Vozila SET prodajalna_id = 4 WHERE id_vozila = 19;
-UPDATE Vozila SET prodajalna_id = 5 WHERE id_vozila = 20;
+UPDATE Vozila SET prodajalna_id = 12 WHERE id_vozila = 14;
+UPDATE Vozila SET prodajalna_id = 4 WHERE id_vozila = 15;
+UPDATE Vozila SET prodajalna_id = 15 WHERE id_vozila = 16;
+UPDATE Vozila SET prodajalna_id = 7 WHERE id_vozila = 17;
+UPDATE Vozila SET prodajalna_id = 2 WHERE id_vozila = 18;
+UPDATE Vozila SET prodajalna_id = 9 WHERE id_vozila = 19;
+UPDATE Vozila SET prodajalna_id = 13 WHERE id_vozila = 20;
 
 ALTER TABLE Vozila
 ADD COLUMN slika VARCHAR(255);
@@ -416,37 +426,68 @@ CREATE TABLE Racun (
 );
 
 INSERT INTO Racun (prodajalna_id, kupec_id, cena, popust, datum_nakupa, servis_povezava_id) VALUES
-(1, 16, 23000, '15%', '2024-05-20', 3),
-(2, 17, 26000, '12%', '2024-05-21', 4),
-(3, 18, 19000, '7%', '2024-05-22', 1),
-(4, 19, 34000, '3%', '2024-05-23', 6),
-(5, 20, 41000, '10%', '2024-05-24', 5),
-(1, 21, 21500, '0%', '2024-05-25', 2),
-(2, 22, 27000, '6%', '2024-05-26', 3),
-(3, 23, 18500, '2%', '2024-05-27', 4),
-(4, 24, 32000, '8%', '2024-05-28', 1),
-(5, 25, 43000, '5%', '2024-05-29', 6),
-(1, 26, 22500, '4%', '2024-05-30', 2),
-(2, 27, 25500, '0%', '2024-05-31', 5),
-(3, 28, 19500, '10%', '2024-06-01', 3),
-(4, 29, 30000, '7%', '2024-06-02', 4),
-(5, 30, 44000, '3%', '2024-06-03', 1),
-(1, 31, 23500, '0%', '2024-06-04', 6),
-(2, 32, 28000, '5%', '2024-06-05', 2),
-(3, 33, 17500, '4%', '2024-06-06', 3),
-(4, 34, 35000, '0%', '2024-06-07', 4),
-(5, 35, 42000, '6%', '2024-06-08', 5),
-(1, 36, 21000, '8%', '2024-06-09', 1),
-(2, 37, 26000, '0%', '2024-06-10', 6),
-(3, 38, 18500, '3%', '2024-06-11', 2),
-(4, 39, 33000, '10%', '2024-06-12', 3),
-(5, 40, 40000, '0%', '2024-06-13', 4),
-(1, 41, 22000, '7%', '2024-06-14', 5),
-(2, 42, 25000, '5%', '2024-06-15', 1),
-(3, 43, 17000, '0%', '2024-06-16', 6),
-(4, 44, 31000, '4%', '2024-06-17', 2),
-(5, 45, 45000, '2%', '2024-06-18', 3),
-(1, 46, 20500, '6%', '2024-06-19', 4);
+(14, 31, 23000, '15%', '2024-05-20', 12),
+(3, 10, 26000, '12%', '2024-05-21', 4),
+(8, 44, 19000, '7%', '2024-05-22', 19),
+(11, 2, 34000, '3%', '2024-05-23', 7),
+(1, 20, 41000, '10%', '2024-05-24', 23),
+(13, 5, 21500, '0%', '2024-05-25', 15),
+(6, 27, 27000, '6%', '2024-05-26', 1),
+(9, 35, 18500, '2%', '2024-05-27', 26),
+(2, 43, 32000, '8%', '2024-05-28', 9),
+(10, 8, 43000, '5%', '2024-05-29', 3),
+(15, 29, 22500, '4%', '2024-05-30', 20),
+(4, 17, 25500, '0%', '2024-05-31', 11),
+(5, 1, 19500, '10%', '2024-06-01', 17),
+(7, 36, 30000, '7%', '2024-06-02', 24),
+(1, 24, 44000, '3%', '2024-06-03', 6),
+(12, 13, 23500, '0%', '2024-06-04', 18),
+(3, 41, 28000, '5%', '2024-06-05', 10),
+(11, 6, 17500, '4%', '2024-06-06', 13),
+(6, 14, 35000, '0%', '2024-06-07', 21),
+(15, 33, 42000, '6%', '2024-06-08', 2),
+(7, 4, 21000, '8%', '2024-06-09', 14),
+(9, 40, 26000, '0%', '2024-06-10', 8),
+(5, 16, 18500, '3%', '2024-06-11', 25),
+(13, 30, 33000, '10%', '2024-06-12', 22),
+(2, 37, 40000, '0%', '2024-06-13', 5),
+(14, 22, 22000, '7%', '2024-06-14', 16),
+(10, 26, 25000, '5%', '2024-06-15', 7),
+(8, 39, 17000, '0%', '2024-06-16', 19),
+(4, 28, 31000, '4%', '2024-06-17', 1),
+(12, 7, 45000, '2%', '2024-06-18', 26),
+(1, 18, 20500, '6%', '2024-06-19', 20),
+(2, 25, 27000, '11%', '2025-01-02', 3),
+(13, 12, 19000, '3%', '2025-01-03', 8),
+(5, 15, 34000, '8%', '2025-01-04', 15),
+(11, 23, 43000, '10%', '2025-01-05', 24),
+(1, 38, 21500, '0%', '2025-01-06', 6),
+(7, 21, 26000, '6%', '2025-01-07', 12),
+(14, 11, 18000, '5%', '2025-01-08', 19),
+(9, 42, 32000, '4%', '2025-01-09', 22),
+(4, 3, 41000, '2%', '2025-01-10', 11),
+(10, 34, 23000, '7%', '2025-01-11', 1),
+(8, 19, 24000, '1%', '2025-01-12', 18),
+(3, 9, 17500, '9%', '2025-01-13', 20),
+(15, 44, 20000, '0%', '2025-01-14', 9),
+(6, 45, 22500, '12%', '2025-01-15', 4),
+(12, 31, 25000, '10%', '2025-01-16', 13),
+(1, 10, 19500, '5%', '2025-01-17', 16),
+(14, 32, 30000, '3%', '2025-01-18', 25),
+(2, 20, 35000, '6%', '2025-01-19', 14),
+(9, 13, 27000, '8%', '2025-01-20', 7),
+(7, 27, 22000, '0%', '2025-01-21', 5),
+(5, 1, 21000, '7%', '2025-01-22', 21),
+(11, 16, 26000, '4%', '2025-01-23', 2),
+(8, 4, 18000, '10%', '2025-01-24', 23),
+(4, 22, 33000, '3%', '2025-01-25', 17),
+(6, 43, 40000, '9%', '2025-01-26', 10),
+(3, 7, 22000, '0%', '2025-01-27', 24),
+(10, 18, 25000, '6%', '2025-01-28', 15),
+(15, 41, 17000, '2%', '2025-01-29', 13),
+(2, 29, 31000, '5%', '2025-01-30', 8),
+(13, 35, 45000, '8%', '2025-01-31', 19),
+(1, 6, 20500, '4%', '2025-02-01', 6);
 
 -- ======================== Foreign Key ========================
 -- ====== Prodajalna ======
@@ -540,7 +581,7 @@ ORDER BY r.datum_nakupa DESC;
 CREATE OR REPLACE VIEW prodajalna_view AS
 SELECT 
     p.ime AS prodajalna,
-    COUNT(r.id_račun) AS stevilo_racunov,
+    COUNT(r.id_račun) AS stevilo_prodaj,
     SUM(r.cena) AS skupni_prihodek
 FROM Racun r
 JOIN Prodajalna p ON r.prodajalna_id = p.id_prodajalna
@@ -551,12 +592,13 @@ ORDER BY skupni_prihodek DESC;
 CREATE OR REPLACE VIEW kupec_spent_view AS
 SELECT 
     CONCAT(k.ime, ' ', k.priimek) AS kupec,
-    SUM(r.cena) AS skupni_znesek
+    SUM(r.cena) AS skupni_znesek,
+    p.ime
 FROM Racun r
 JOIN Kupec k ON r.kupec_id = k.id_kupec
+JOIN prodajalna p ON p.id_prodajalna = r.prodajalna_id
 GROUP BY r.kupec_id
-ORDER BY skupni_znesek DESC
-LIMIT 3;
+ORDER BY skupni_znesek DESC;
 
 -- ====== Servis Zaposleni ======
 CREATE OR REPLACE VIEW servis_zaposelni_view AS
@@ -591,22 +633,13 @@ WHERE CAST(REPLACE(r.popust, '%', '') AS UNSIGNED) > 0;
 CREATE OR REPLACE VIEW servis_view AS
 SELECT 
     s.naziv,
-    COUNT(r.id_račun) AS stevilo_uporabe
+    COUNT(r.id_račun) AS stevilo_uporabe,
+    p.ime AS prodajalna
 FROM Avto_servis s
 LEFT JOIN Racun r ON r.servis_povezava_id = s.id_servus
+JOIN prodajalna p ON p.id_prodajalna = r.prodajalna_id
 GROUP BY s.id_servus
 ORDER BY stevilo_uporabe DESC;
-
--- ====== Vozila v prodajalni ======
-CREATE OR REPLACE VIEW vozila_v_prodajalni_view AS
-SELECT 
-    v.prodajalna_id,
-    v.znamka,
-    v.model,
-    v.letnik,
-    p.ime AS prodajalna
-FROM Vozila v
-JOIN Prodajalna p ON v.prodajalna_id = p.id_prodajalna;
 
 -- ====== Zaloga vozil v prodajalni ======
 CREATE OR REPLACE VIEW vozila_zaloga_prodajalna_view AS
@@ -641,4 +674,10 @@ SELECT
     drzava
 FROM Dobavitelji
 ORDER BY drzava, naziv;
+
+
+
+
+
+
 
