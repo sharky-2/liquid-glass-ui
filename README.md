@@ -2,9 +2,9 @@
 <h1>LIQUID-GLASS-UI</h1>
 <p><em>A Modern React UI Component with Liquid Glass Effect</em></p>
 
-<img alt="last-commit" src="https://img.shields.io/github/last-commit/yourusername/liquid-glass-ui?style=flat&logo=git&logoColor=white&color=0080ff" class="inline-block mx-1" style="margin: 0px 2px;">
-<img alt="repo-top-language" src="https://img.shields.io/github/languages/top/yourusername/liquid-glass-ui?style=flat&color=0080ff" class="inline-block mx-1" style="margin: 0px 2px;">
-<img alt="repo-language-count" src="https://img.shields.io/github/languages/count/yourusername/liquid-glass-ui?style=flat&color=0080ff" class="inline-block mx-1" style="margin: 0px 2px;">
+<img alt="last-commit" src="https://img.shields.io/github/last-commit/Uporabnik/liquid-glass-ui?style=flat&logo=git&logoColor=white&color=0080ff" class="inline-block mx-1" style="margin: 0px 2px;">
+<img alt="repo-top-language" src="https://img.shields.io/github/languages/top/Uporabnik/liquid-glass-ui?style=flat&color=0080ff" class="inline-block mx-1" style="margin: 0px 2px;">
+<img alt="repo-language-count" src="https://img.shields.io/github/languages/count/Uporabnik/liquid-glass-ui?style=flat&color=0080ff" class="inline-block mx-1" style="margin: 0px 2px;">
 
 <p><em>Built with the tools and technologies:</em></p>
 <img alt="CSS" src="https://img.shields.io/badge/CSS-1572B6.svg?style=flat&logo=CSS3&logoColor=white" class="inline-block mx-1" style="margin: 0px 2px;">
@@ -57,7 +57,7 @@ Build Liquid-Glass-UI from the source and install dependencies:
 
 1. **Clone the repository:**
 ```sh
-git clone https://github.com/yourusername/liquid-glass-ui
+git clone https://github.com/Uporabnik/liquid-glass-ui
 ```
 
 2. **Navigate to the project directory:**
