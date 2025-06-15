@@ -1,0 +1,5 @@
+:root {
+    --color-white: #ffffff;
+    --transparent-white-5: rgba(255, 255, 255, 0.05);
+    --transparent-white-40: rgba(255, 255, 255, 0.40);
+}

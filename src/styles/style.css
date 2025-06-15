@@ -1,0 +1,110 @@
+@import url('./root.css');
+
+body {
+    padding: 0;
+    margin: 0;
+
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* ===== container ===== */
+    .container {
+        height: 500px;
+        width: 800px;
+        position: relative;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        /* ===== image ===== */
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+
+            position: absolute;
+            z-index: -1;
+        }
+
+        /* ===== button ===== */
+        .button {
+            width: 200px;
+            height: 50px;
+            cursor: move;
+            position: absolute;
+            border: 2px solid transparent;
+            border-radius: 100px;
+            position: relative;
+           
+            padding: 5px;
+            
+            mask-composite: exclude;
+
+            &::before {
+                content: '';
+                position: absolute;
+                inset: 0;
+                border-radius: 100px;
+            
+                height: calc(100% + 5px);
+                width: calc(100% + 5px);
+            
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                z-index: -1;
+            
+                background: linear-gradient(
+                    45deg, 
+                    var(--transparent-white-5) 5%, 
+                    var(--color-white) 50%, 
+                    var(--transparent-white-5) 100%
+                );
+            
+                mask: 
+                    radial-gradient(
+                        transparent 60%, 
+                        black 61%
+                    );
+                mask-composite: exclude;
+            }
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            button {
+                background: none;
+                border: none;
+                outline: none;
+                color: black;
+                z-index: 1;
+                
+                color: var(--color-white);
+                font-weight: bold;
+                font-size: 20px;
+
+                width: calc(100% + 5px);
+                height: calc(100% + 5px);
+                border-radius: 100px;
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    inset: 0;
+                    z-index: -1;
+                    border-radius: 100px;
+                    backdrop-filter: blur(10px);
+                    box-shadow: 
+                        inset 0 2px 4px var(--transparent-white-40),
+                        inset 0 -2px 4px rgba(0, 0, 0, 0.25);
+                }
+            }
+        }
+    }
+}
